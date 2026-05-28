@@ -1,0 +1,79 @@
+{
+  "hero": {
+    "badge": "Bangladesh Environmental Consultancy",
+    "titleStart": "Climate Research & ",
+    "titleHighlight": "Environmental Solutions",
+    "titleEnd": " for Bangladesh",
+    "subtitle": "We provide research, data-driven analysis, environmental planning, and climate resilience solutions for citizens, communities, institutions, and development organizations across Bangladesh.",
+    "cta1": { "label": "Explore Our Work", "href": "#projects" },
+    "cta2": { "label": "Contact Us", "href": "#contact" },
+    "stats": [
+      { "id": "1", "value": "10+", "label": "Research Areas" },
+      { "id": "2", "value": "50+", "label": "Projects" },
+      { "id": "3", "value": "8+", "label": "Core Services" },
+      { "id": "4", "value": "64", "label": "Districts Covered" }
+    ]
+  },
+  "about": {
+    "paragraphs": [
+      "GreenDelta Environmental Solutions is a research-focused environmental consultancy dedicated to working for Bangladesh's people, nature, and future resilience. We bridge the gap between rigorous scientific research and practical on-the-ground environmental action.",
+      "From the mangrove coasts of the Sundarbans to the river basins of the north and the urban heat islands of Dhaka, we study and address Bangladesh's most pressing environmental challenges with data, technology, and community engagement.",
+      "Our interdisciplinary team of environmental scientists, GIS specialists, climate researchers, and community development experts works with government agencies, NGOs, development partners, academic institutions, and local communities."
+    ],
+    "values": [
+      "Climate Adaptation",
+      "Biodiversity",
+      "Environmental Planning",
+      "Sustainable Development",
+      "Resilience Building",
+      "Citizen Science"
+    ],
+    "highlights": [
+      { "id": "1", "iconKey": "check", "title": "Research-First Approach", "text": "Every recommendation is grounded in peer-reviewed methodology, field data, and evidence-based analysis." },
+      { "id": "2", "iconKey": "globe", "title": "Bangladesh-Centered Focus", "text": "Deep local knowledge of Bangladesh's geography, ecology, policy landscape, and community needs." },
+      { "id": "3", "iconKey": "users", "title": "Community & Citizen Engagement", "text": "We bring citizens, communities, and institutions together for inclusive, participatory environmental action." },
+      { "id": "4", "iconKey": "chip", "title": "Technology & GIS Innovation", "text": "Advanced GIS, satellite remote sensing, and spatial data science to deliver precision environmental insights." }
+    ]
+  },
+  "services": [
+    { "id": "1", "iconKey": "cloud",      "color": "green",   "title": "Climate Change Research",                "description": "In-depth research on climate variability, temperature trends, precipitation patterns, sea-level rise impacts, and adaptation strategies tailored to Bangladesh's regions." },
+    { "id": "2", "iconKey": "clipboard",  "color": "sky",     "title": "Environmental Impact Assessment",        "description": "Comprehensive EIA studies for infrastructure, industrial, and development projects — covering air, water, soil, biodiversity, and socio-environmental dimensions." },
+    { "id": "3", "iconKey": "map",        "color": "earth",   "title": "GIS & Remote Sensing Analysis",          "description": "Multi-temporal satellite imagery analysis, land-use change detection, vegetation mapping, flood extent mapping, and spatial decision support systems." },
+    { "id": "4", "iconKey": "building",   "color": "teal",    "title": "Urban Environmental Planning",           "description": "Green infrastructure design, urban heat island analysis, air quality assessment, urban drainage planning, and sustainable land-use recommendations for cities." },
+    { "id": "5", "iconKey": "warning",    "color": "blue",    "title": "Disaster Risk & Vulnerability Assessment","description": "Flood, cyclone, riverbank erosion, and drought risk mapping. Community vulnerability profiling and early-warning system design for disaster risk reduction." },
+    { "id": "6", "iconKey": "star",       "color": "emerald", "title": "Biodiversity & Ecosystem Studies",       "description": "Flora and fauna surveys, habitat assessment, Sundarbans ecosystem health monitoring, wetland ecology, and biodiversity corridor planning." },
+    { "id": "7", "iconKey": "cube",       "color": "cyan",    "title": "Water, River & Wetland Research",        "description": "Hydrological studies, river morphology analysis, haor and beel ecosystem research, water quality assessment, and integrated water resource management." },
+    { "id": "8", "iconKey": "users",      "color": "lime",    "title": "Community Awareness & Citizen Engagement","description": "Environmental literacy programs, citizen science data collection, community environmental monitoring, and participatory conservation campaigns." }
+  ],
+  "research": [
+    { "id": "1", "iconKey": "cloud",      "colorTheme": "green",   "title": "Climate Resilience",                        "description": "Studying long-term climate trends, building adaptive capacity frameworks, and designing resilience pathways for vulnerable communities across Bangladesh." },
+    { "id": "2", "iconKey": "cube",       "colorTheme": "sky",     "title": "Flood & River Management",                  "description": "Hydrodynamic modeling, riverbank erosion analysis, floodplain mapping, and integrated flood risk management for Bangladesh's major river systems." },
+    { "id": "3", "iconKey": "fire",       "colorTheme": "blue",    "title": "Coastal Vulnerability",                     "description": "Sea-level rise projections, cyclone risk profiling, tidal river management, mangrove dynamics, and coastal erosion assessment for the Bay of Bengal coastline." },
+    { "id": "4", "iconKey": "building",   "colorTheme": "orange",  "title": "Urban Heat & Air Quality",                  "description": "Urban heat island effect measurement, ambient air quality monitoring, particulate matter analysis, and green-cool city design strategies for Dhaka and other cities." },
+    { "id": "5", "iconKey": "star",       "colorTheme": "emerald", "title": "Hill Ecology & Forest Conservation",        "description": "Biodiversity surveys, deforestation monitoring, forest carbon stock assessment, and conservation planning for the Chittagong Hill Tracts and Sylhet forests." },
+    { "id": "6", "iconKey": "lightning",  "colorTheme": "yellow",  "title": "Renewable Energy & Sustainability",         "description": "Solar potential mapping, wind resource assessment, energy transition planning, and sustainability indicators for low-carbon development in Bangladesh." },
+    { "id": "7", "iconKey": "book",       "colorTheme": "teal",    "title": "Citizen Science & Environmental Education", "description": "Crowd-sourced environmental data collection, community-based monitoring networks, school programs, and digital environmental awareness platforms." }
+  ],
+  "projects": [
+    { "id": "1", "title": "Climate Vulnerability Mapping of Coastal Bangladesh",    "category": "Climate Research",    "description": "Multi-layered vulnerability assessment integrating sea-level rise data, cyclone frequency, livelihood profiles, and adaptive capacity indicators for 12 coastal districts.", "tags": ["GIS","Climate","Coastal","Satellite"],              "status": "Completed", "gradientColor": "from-green-500 to-teal-600" },
+    { "id": "2", "title": "Urban Green Space Assessment — Dhaka Metropolitan",      "category": "Urban Environment",   "description": "NDVI-based green coverage analysis, urban heat island correlation, and green infrastructure gap mapping for Dhaka city with planning recommendations.",               "tags": ["Remote Sensing","NDVI","Urban Planning"],           "status": "Completed", "gradientColor": "from-emerald-400 to-green-600" },
+    { "id": "3", "title": "Flood Risk Mapping — Brahmaputra-Jamuna Floodplain",    "category": "Disaster Risk",       "description": "Hydrodynamic modelling and multi-return-period flood extent mapping to support early warning systems and community-level flood preparedness plans.",               "tags": ["Flood Modelling","GIS","Risk Mapping"],             "status": "Ongoing",   "gradientColor": "from-sky-400 to-blue-600" },
+    { "id": "4", "title": "Community Environmental Awareness Program",              "category": "Citizen Engagement",  "description": "Environmental literacy initiative reaching 5,000+ citizens across five districts — combining workshops, citizen science data collection, and digital content.",  "tags": ["Citizen Science","Education","Community"],          "status": "Ongoing",   "gradientColor": "from-lime-400 to-green-500" },
+    { "id": "5", "title": "River and Wetland Conservation Study — Haor Basin",     "category": "Ecosystem Research",  "description": "Comprehensive ecological survey of haor wetlands covering biodiversity, water quality, fish habitat, and migratory bird patterns with conservation action plan.", "tags": ["Wetland","Biodiversity","Haor","Ecology"],          "status": "Completed", "gradientColor": "from-cyan-400 to-sky-600" },
+    { "id": "6", "title": "Renewable Energy Potential Assessment — Northern Chars", "category": "Sustainability",      "description": "Solar irradiance mapping and wind speed analysis for off-grid char islands, informing clean energy deployment planning for 200,000+ isolated residents.",      "tags": ["Solar","Renewable","GIS","Sustainability"],         "status": "Planned",   "gradientColor": "from-yellow-400 to-orange-500" }
+  ],
+  "whyUs": {
+    "reasons": [
+      { "id": "1", "number": "01", "iconKey": "location", "title": "Bangladesh-Focused Research",          "description": "Our work is rooted in deep local knowledge — from the chars of the north to the haors of the northeast and the mangrove coasts of the south. We understand Bangladesh's unique environmental context." },
+      { "id": "2", "number": "02", "iconKey": "chart",    "title": "Data-Driven Environmental Solutions",  "description": "Every finding and recommendation is backed by field surveys, satellite data, spatial analysis, and quantitative modelling — not assumptions." },
+      { "id": "3", "number": "03", "iconKey": "heart",    "title": "Citizen-Centered Approach",            "description": "We place communities at the heart of environmental work — involving citizens in research design, data collection, and awareness — ensuring solutions are inclusive and locally owned." },
+      { "id": "4", "number": "04", "iconKey": "chip",     "title": "GIS & Climate Technology Expertise",   "description": "We deploy state-of-the-art GIS, satellite remote sensing, machine learning, and climate modelling tools to generate precise, actionable environmental intelligence." },
+      { "id": "5", "number": "05", "iconKey": "check",    "title": "Sustainable & Practical Recommendations","description": "Our advice is designed to be implementable — balancing scientific rigour with real-world feasibility, cultural context, and long-term sustainability." }
+    ]
+  },
+  "contact": {
+    "email": "info@greendeltaenvironment.com",
+    "location": "Dhaka, Bangladesh",
+    "hours": "Sun – Thu, 9:00 AM – 6:00 PM"
+  }
+}
