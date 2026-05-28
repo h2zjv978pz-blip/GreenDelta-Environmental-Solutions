@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\archcell\\\\Desktop\\\\GreenDelta Environmental Solutions\" -Recurse | Where-Object { !$_.PSIsContainer } | Select-Object FullName | ForEach-Object { $_.FullName.Replace\\(\"c:\\\\Users\\\\archcell\\\\Desktop\\\\GreenDelta Environmental Solutions\\\\\",\"\"\\) })",
+      "PowerShell(winget install OpenJS.NodeJS.LTS --accept-source-agreements --accept-package-agreements)",
+      "PowerShell($env:PATH = [System.Environment]::GetEnvironmentVariable\\(\"PATH\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"PATH\",\"User\"\\); node --version; npm --version)",
+      "PowerShell($env:PATH = [System.Environment]::GetEnvironmentVariable\\(\"PATH\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"PATH\",\"User\"\\); cd \"c:\\\\Users\\\\archcell\\\\Desktop\\\\GreenDelta Environmental Solutions\"; npm install 2>&1 | Select-Object -Last 15)",
+      "PowerShell($env:PATH = [System.Environment]::GetEnvironmentVariable\\(\"PATH\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"PATH\",\"User\"\\); cd \"c:\\\\Users\\\\archcell\\\\Desktop\\\\GreenDelta Environmental Solutions\"; npm run build 2>&1)",
+      "PowerShell($env:PATH = [System.Environment]::GetEnvironmentVariable\\(\"PATH\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"PATH\",\"User\"\\); cd \"c:\\\\Users\\\\archcell\\\\Desktop\\\\GreenDelta Environmental Solutions\"; Start-Process powershell -ArgumentList \"-NoExit\", \"-Command\", \"`$env:PATH = [System.Environment]::GetEnvironmentVariable\\('PATH','Machine'\\) + ';' + [System.Environment]::GetEnvironmentVariable\\('PATH','User'\\); Set-Location 'c:\\\\Users\\\\archcell\\\\Desktop\\\\GreenDelta Environmental Solutions'; npm run dev\")",
+      "PowerShell($env:PATH = [System.Environment]::GetEnvironmentVariable\\(\"PATH\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"PATH\",\"User\"\\); cd \"c:\\\\Users\\\\archcell\\\\Desktop\\\\GreenDelta Environmental Solutions\"; npm run dev 2>&1)",
+      "PowerShell(winget install Git.Git --accept-source-agreements --accept-package-agreements 2>&1)",
+      "PowerShell($env:PATH = [System.Environment]::GetEnvironmentVariable\\(\"PATH\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"PATH\",\"User\"\\); git --version)",
+      "PowerShell($env:PATH = [System.Environment]::GetEnvironmentVariable\\(\"PATH\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"PATH\",\"User\"\\); cd \"c:\\\\Users\\\\archcell\\\\Desktop\\\\GreenDelta Environmental Solutions\"; git init; git branch -M main)",
+      "PowerShell($env:PATH = [System.Environment]::GetEnvironmentVariable\\(\"PATH\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"PATH\",\"User\"\\); cd \"c:\\\\Users\\\\archcell\\\\Desktop\\\\GreenDelta Environmental Solutions\"; git config user.email \"brosub76@gmail.com\"; git config user.name \"h2zjv978pz-blip\"; git add .; git status --short)"
+    ]
+  }
+}
